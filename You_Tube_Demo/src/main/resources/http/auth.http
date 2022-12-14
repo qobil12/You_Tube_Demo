@@ -1,0 +1,21 @@
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "username": "Bahodir",
+  "password": "4647",
+  "email": "bahodirmufid@gmail.com"
+}
+
+###ADMIN
+POST http://localhost:8080/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "bahodirmufid@gmail.com",
+  "password": "4647"
+}
+###
+
+
+

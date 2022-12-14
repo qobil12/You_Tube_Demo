@@ -1,0 +1,28 @@
+POST http://localhost:8080/api/v1/video/public/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTc2MTQzNTcsImV4cCI6MTY1NzYxNzk1NywiaXNzIjoiWW91dHViZSBwcm9qZWN0IiwiaWQiOjF9.nY453Q55GHL2zssUBq9jcR7GLlSS2Qek02NI7sec4rw
+Content-Type: application/json
+
+{
+  "name": "video 5",
+  "description": "video 5 desc",
+  "attachId": "003aabca-74e9-4383-9e26-d00351d330d7",
+  "previewId": "d86574fc-59ed-40ce-bb22-27ace82b7b73",
+  "channelId": "402880ec81e966bc0181e96868430000",
+  "playlistId": "402880ec81e8a9f60181e8aeb4570000",
+  "categoryId": 3,
+  "order": 5
+}
+
+###update
+
+
+###change status
+
+###increase view count
+
+###pagination by category id
+GET http://localhost:8080/api/v1/video/public/pagination_by_category/3?size=5&page=0
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTc2MTQzNTcsImV4cCI6MTY1NzYxNzk1NywiaXNzIjoiWW91dHViZSBwcm9qZWN0IiwiaWQiOjF9.nY453Q55GHL2zssUBq9jcR7GLlSS2Qek02NI7sec4rw
+
+###get by name
+GET http://localhost:8080/api/v1/video/public/get_by_name/
